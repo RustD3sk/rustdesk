@@ -119,7 +119,7 @@ class _DesktopSettingPageState extends State<DesktopSettingPage>
     final children = [
       _General(),
       _Safety(),
-      _Network(),
+      // _Network(),
       _Display(),
       _Account(),
       _About(),
