@@ -1964,17 +1964,17 @@ int version_cmp(String v1, String v2) {
 String getWindowName({WindowType? overrideType}) {
   switch (overrideType ?? kWindowType) {
     case WindowType.Main:
-      return "Titanext Tech";
+      return "RustDesk";
     case WindowType.FileTransfer:
-      return "File Transfer - Titanext Tech";
+      return "File Transfer - RustDesk";
     case WindowType.PortForward:
-      return "Port Forward - Titanext Tech";
+      return "Port Forward - RustDesk";
     case WindowType.RemoteDesktop:
-      return "Remote Desktop - Titanext Tech";
+      return "Remote Desktop - RustDesk";
     default:
       break;
   }
-  return "Titanext Tech";
+  return "RustDesk";
 }
 
 String getWindowNameWithId(String id, {WindowType? overrideType}) {
